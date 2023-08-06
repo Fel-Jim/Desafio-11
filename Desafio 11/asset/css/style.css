@@ -1,0 +1,87 @@
+.grid-container {
+    display: flex;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer ";
+    justify-content: center;
+
+}
+
+.product {
+    width: 60vh;
+    height: 85vh;
+    background-color: orange;
+    border-radius: 5%;
+    border: solid blue;
+
+
+
+}
+
+.img-product {
+    display: grid;
+    grid-area: header;
+    justify-content: center;
+    margin: 1vh;
+
+}
+
+.img-product img {
+    width: 40vh;
+    border-radius: 5%;
+    border: solid blue;
+
+
+}
+
+.img-product p {
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.inf-product {
+    grid-area: main;
+    display: grid;
+    justify-content: center;
+    margin: 2vh;
+
+}
+
+.button-unit {
+    margin: 1vh;
+    border-radius: 10%;
+}
+
+.button-color {
+    display: flex;
+    margin: 1vh;
+    justify-content: center;
+
+}
+
+.calculator-button {
+    grid-area: footer;
+    display: grid;
+    justify-content: center;
+    margin: 2vh;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+}
+
+.details {
+    margin: 2vh;
+}
+
+.Colorfinal {
+    border-radius: 50%;
+    border: 1vh solid black;
+    background-color: white;
+    width: 5vh;
+    height: 5vh;
+}

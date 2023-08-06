@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <main class="product">
+            <div class="img-product">
+                <img src="./asset/img/globos.avif" alt="imagen de globos">
+                <P>Globos de colores</P>
+            </div>
+            <div class="inf-product">
+                <div class="button-unit">
+                    <input class="quantity" type="number">
+                </div>
+                <div class="button-color">
+                    <select class="colorselect">
+                        <option selected>Color</option>
+                        <option value="#FF0000">Rojo</option>
+                        <option value="#FFF700">amarillo</option>
+                        <option value="#32FF00">verde</option>
+                        <option value="#002EFF">azul</option>
+                        <option value="#FF0093">rosa</option>
+                    </select>
+                </div>
+            </div>
+            <div class="price">Precio: $300 c/u</div>
+            <div class="calculator-button">
+                <button class="button"> Calcular Total </button>
+            </div>
+        </main>
+        <section class="details">
+            <p>Total: $
+            <div class="total"></div>
+            </p>
+            <p>Cantidad:
+            <div class="amount"></div>
+            </p>
+            <p>Color:
+            <div class="Colorfinal"></div>
+            </p>
+        </section>
+
+
+
+
+
+    </div>
+    <script src="./asset/javascript/script.js"></script>
+</body>
+
+</html>
